@@ -12,9 +12,14 @@ public class Test1 {
 		ChromeDriver driver = new ChromeDriver();
          
 		driver.get("http://automationpractice.com/index.php");
-	
+		
+		System.out.println("==========================================");
 		System.out.println("Applicatin URL: " + driver.getCurrentUrl());
 		System.out.println("Windiow Title: " + driver.getTitle());
+		System.out.println("This code is added by Project Engineer");
+		System.out.println("This code is updated by Project Engineer");
+		System.out.println("==========================================");
+		
 		driver.close();
 	}
 }
