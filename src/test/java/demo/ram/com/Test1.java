@@ -17,6 +17,7 @@ public class Test1 {
 		System.out.println("Applicatin URL: " + driver.getCurrentUrl());
 		System.out.println("Windiow Title: " + driver.getTitle());
 		System.out.println("This code is added by Project Engineer");
+		System.out.println("This code is updated by Project Engineer");
 		System.out.println("==========================================");
 		
 		driver.close();
